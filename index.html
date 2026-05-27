@@ -1,16 +1,24 @@
 <!doctype html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="РезюмеПрофи - современное резюме из вашего опыта без сложных форм.">
-    <title>РезюмеПрофи</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI Start: интерактивный курс на русском языке по ChatGPT, ИИ и промпт-инжинирингу для новичков."
+    />
+    <meta property="og:title" content="AI Start: ChatGPT и промпты с нуля" />
+    <meta
+      property="og:description"
+      content="Линейный курс с уроками, тестами, прогрессом и базой знаний по практическому использованию ИИ."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/hero-ai-course.png" />
+    <title>AI Start: ChatGPT и промпты с нуля</title>
   </head>
   <body>
-    <a class="skip-link" href="#app">К содержимому</a>
-    <div id="app"></div>
-    <div id="toast" class="toast" aria-live="polite"></div>
-    <script src="app.js" defer></script>
+    <a class="skip-link" href="#main">К содержимому</a>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
