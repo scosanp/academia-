@@ -1,0 +1,19 @@
+{
+  "name": "rezume-profi-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Статический MVP сайта РезюмеПрофи для GitHub Pages.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check server.mjs"
+  },
+  "keywords": [
+    "resume",
+    "career",
+    "mvp",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}
