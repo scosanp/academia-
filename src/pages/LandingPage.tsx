@@ -20,6 +20,7 @@ const flow = [
 export function LandingPage() {
   const { stats } = useProgress();
   const hours = Math.round(totalDurationMinutes / 60);
+  const heroImage = `${import.meta.env.BASE_URL}hero-ai-course.png`;
 
   return (
     <>
@@ -47,7 +48,7 @@ export function LandingPage() {
         </div>
 
         <div className="hero-visual" aria-hidden="true">
-          <img src="/hero-ai-course.png" alt="" />
+          <img src={heroImage} alt="" />
         </div>
       </section>
 
